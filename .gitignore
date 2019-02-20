@@ -1,0 +1,16 @@
+*.pyc
+*#
+*.so
+*~
+build/
+pyrsistent.egg-info/
+dist/
+.idea
+.tox
+README.html
+.hypothesis
+.cache
+#*
+.coverage
+.pytest_cache
+.eggs
