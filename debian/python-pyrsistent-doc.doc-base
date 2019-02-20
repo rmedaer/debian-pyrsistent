@@ -1,0 +1,10 @@
+cument: python-pyrsistent-doc
+Title: python-pyrsistent-doc Documentation
+Author: OpenStack
+Abstract: Sphinx documentation for python-pyrsistent-doc
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-pyrsistent-doc/html/index.html
+Files: /usr/share/doc/python-pyrsistent-doc/html/*
+

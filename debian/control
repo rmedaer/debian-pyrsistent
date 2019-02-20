@@ -1,0 +1,45 @@
+Source: pyrsistent
+Section: python
+Priority: optional
+Maintainer: Raphael Medaer <rme@escaux.com>
+Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
+Standards-Version: 3.9.8
+Homepage: https://github.com/tobgu/pyrsistent
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/pyrsistent.git
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/pyrsistent.git/
+#Testsuite: autopkgtest-pkg-python
+
+Package: python-pyrsistent
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Suggests: python-pyrsistent-doc
+Description: Immutable collections in Python (Python 2)
+ Pyrsistent is a number of persistent collections (by some referred
+ to as functional data structures). Persistent in the sense that they
+ are immutable.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-pyrsistent
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-pyrsistent-doc
+Description: Immutable collections in Python (Python 3)
+ Pyrsistent is a number of persistent collections (by some referred
+ to as functional data structures). Persistent in the sense that they
+ are immutable.
+ .
+ This package installs the library for Python 3.
+
+Package: python-pyrsistent-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: Immutable collections in Python (common documentation)
+ Pyrsistent is a number of persistent collections (by some referred
+ to as functional data structures). Persistent in the sense that they
+ are immutable.
+ .
+ This is the common documentation package.

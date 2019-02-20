@@ -1,0 +1,5 @@
+pyrsistent (0.14.10-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Raphael Medaer <rme@escaux.com>  Wed, 20 Feb 2019 15:32:15 +0100
